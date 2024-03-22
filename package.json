@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch ./src/app.ts"
+    "dev": "tsx watch ./src/app.ts",
+    "initialize:db": "tsx ./src/core/database/initializeDb.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.30",
+    "@types/pg": "^8.11.4",
     "tsx": "^4.7.1",
     "typescript": "^5.4.3"
   },
@@ -18,6 +20,7 @@
     "dotenv": "^16.4.5",
     "fastify": "^4.26.2",
     "http-status": "^1.7.4",
+    "pg": "^8.11.3",
     "uuidv4": "^6.2.13"
   }
 }
