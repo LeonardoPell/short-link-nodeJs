@@ -17,6 +17,7 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "fastify": "^4.26.2",
-    "http-status": "^1.7.4"
+    "http-status": "^1.7.4",
+    "uuidv4": "^6.2.13"
   }
 }
